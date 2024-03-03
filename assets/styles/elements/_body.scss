@@ -1,0 +1,12 @@
+@use "../settings/variables";
+
+body {
+  background-color: rgb(38,20,87);
+  background: 
+            radial-gradient(ellipse 20% 200px at 50% -50px, rgba(39, 57, 104,.7) 20%,transparent 100%),
+            radial-gradient(ellipse 35% 300px at 50% -50px, transparent 0%,rgba(29, 18, 67,.7) 90%, transparent 100%),
+            radial-gradient(ellipse 120% 552px at 50% -10px,rgb(38, 20, 87) 20%, rgba(3,7,18,1) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+
+}
