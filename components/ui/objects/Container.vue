@@ -19,16 +19,16 @@
 </script>
 
 <style lang="scss" scoped>
-@use "~/assets/styles/settings/variables";
 
   .container {
-    --container-width: #{variables.$mobile};
+    --container-width: #{$mobile};
 
     width: var(--container-width);
-    margin:0 auto;
+    margin: 0 auto;
+    padding: 0 23px;
 
-    @media(min-width: variables.$desktop){
-      --container-width: #{variables.$desktop};
+    @media(min-width: $desktop){
+      --container-width: #{$desktop};
     }
   }
 </style>
