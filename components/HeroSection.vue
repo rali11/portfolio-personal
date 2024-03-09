@@ -27,7 +27,7 @@
       text-align: center;
       font-size: $fs-subtitle;
       font-weight: 400;
-      color:n$text-secondary-2;
+      color: $text-secondary-2;
     }
   }
 
