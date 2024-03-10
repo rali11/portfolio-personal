@@ -2,7 +2,8 @@
 
 h1,
 h2,
-h3 {
+h3, 
+h4 {
   font-weight: 700;
   margin:0;
 }
@@ -21,4 +22,15 @@ h2 {
 h3 {
   font-size: variables.$fs-title-3;  
   line-height: 1.43rem;
+}
+
+h4 {
+  font-size: variables.$fs-title-4;  
+  line-height: normal;
+}
+
+h5 {
+  font-size: variables.$fs-title-5;  
+  font-weight: 300;
+  line-height: normal;
 }
