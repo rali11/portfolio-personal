@@ -3,6 +3,7 @@
     <HeroSection />
     <ExperienceSection />
     <ProjectSection />
+    <AboutMeSection />
   </main>
 </template>
 <style lang="scss" scoped>
@@ -10,5 +11,6 @@
     display: flex;
     flex-direction: column;
     gap: 42px;
+    margin: 40px 0;
   }
 </style>
