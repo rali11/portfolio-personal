@@ -2,6 +2,7 @@
   <main>
     <HeroSection />
     <ExperienceSection />
+    <ProjectSection />
   </main>
 </template>
 <style lang="scss" scoped>
