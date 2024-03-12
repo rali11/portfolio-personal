@@ -15,6 +15,11 @@ export default defineNuxtConfig({
       pathPrefix: false,
     },
   ],
+  imports:{
+    dirs:[
+      'composables/**'
+    ]
+  },
   vite: {
     css: {
       preprocessorOptions: {
