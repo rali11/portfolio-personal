@@ -37,6 +37,7 @@
     align-items: center;
     gap: 5px;
     text-align: center;
+    margin: 12vh 0;
     width: 100%;
 
     p {
