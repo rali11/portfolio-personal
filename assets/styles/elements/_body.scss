@@ -1,5 +1,9 @@
 @use "../settings/variables";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: variables.$font-family;
   background-color: rgb(38,20,87);

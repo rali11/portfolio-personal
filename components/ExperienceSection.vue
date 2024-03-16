@@ -1,5 +1,8 @@
 <template>
-  <Container tag="section">
+  <Container 
+    id="experience"
+    tag="section" 
+  >
     <h2>Experiencia laboral</h2>
     <ExperienceItem 
       v-for="(item, index) in experienceList" 
@@ -35,4 +38,5 @@
   h2 {
     margin-bottom: 42px
   }
+
 </style>

@@ -12,5 +12,9 @@
     flex-direction: column;
     gap: 42px;
     margin: 40px 0;
+
+    * {
+      scroll-margin: 5rem;
+    }
   }
 </style>
