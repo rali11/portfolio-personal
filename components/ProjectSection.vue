@@ -1,5 +1,8 @@
 <template>
-  <Container tag="section">
+  <Container 
+    id="projects"
+    tag="section"
+  >
     <h2>Proyectos</h2>
     <div>
       <ProjectItem 

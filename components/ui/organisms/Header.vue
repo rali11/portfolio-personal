@@ -3,10 +3,17 @@
     <Container tag="div">
       <nav>
         <ul>
-          <li><a href="#">Experiencia</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">Sobre mí</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li 
+            v-for="(item, index) in navList"
+            :key="index"
+          >
+            <a 
+              :href="item.href"
+              :class="[item.intersecting ? 'intersecting' : '']"
+            >
+              {{ item.title }}
+            </a>
+          </li>
         </ul>
       </nav>
     </Container>
@@ -16,6 +23,68 @@
 <script setup lang="ts">
 
   const { y } = useScrollWindow()
+
+  interface Links {
+    title: string
+    href: string
+    intersecting?: boolean
+    id?: string
+  }
+
+  const navList: Links[] = reactive([
+    {
+      title: 'Experiencia',
+      href: '#experience',
+      intersecting: false,
+      id:'experience'
+    },
+    {
+      title: 'Proyectos',
+      href: '#projects',
+      intersecting: false,
+      id: 'projects'
+    },
+    {
+      title: 'Sobre mi',
+      href: '#aboutMe',
+      intersecting: false,
+      id: 'aboutMe'
+    },
+    {
+      title: 'Contacto',
+      href: 'mailto:rauleduardo.correa21@gmail.com'
+    }
+  ])
+
+  onMounted(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.3,
+    } 
+
+    function callback(entries: any[]){
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          navList.forEach(itemNav => {
+            if(itemNav.id === entry.target.id){
+              itemNav.intersecting = true
+            } else {
+              itemNav.intersecting = false
+            }
+          })
+        } 
+      })
+    }
+
+    const observer = new IntersectionObserver(callback, options);
+
+    navList.forEach(navItem => {
+      if (navItem.id){
+        observer.observe(document.querySelector(`#${navItem.id}`) as Element)
+      }
+    })
+  })
 
   const backgroundScroll = computed(() => y.value > 10 ? 'background-scroll':'')
 
@@ -60,6 +129,12 @@
         a {
           color: $text-primary;
           text-decoration: none;
+        }
+
+        .intersecting {
+          border-width: 0 0 2px 0;
+          border-style: solid;
+          border-color: $header-intersecting-text;
         }
       }
     }

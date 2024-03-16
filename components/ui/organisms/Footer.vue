@@ -7,10 +7,10 @@
         </p>
         <ul class="links">
           <li>
-            <a href="#">Sobre mí</a>
+            <a href="#aboutMe">Sobre mí</a>
           </li>
           <li>
-            <a href="#">Contacto</a>
+            <a href="mailto:rauleduardo.correa21@gmail.com">Contacto</a>
           </li>
         </ul>
       </nav>
