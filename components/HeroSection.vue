@@ -1,8 +1,11 @@
 <template>
   <Container tag="section">
     <div class="hero">
-      <h1>Hola, Soy Eduardo</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+      <h1>Hola, soy Edu</h1>
+      <p>
+        +8 años de experiencia. <strong>Desarrollador de Software Full-Stack</strong>
+        de Buenos Aires, Argentina 🇦🇷. Dedicado a la creación aplicaciones web robustas y escalables.
+      </p>
       <div class="links">
         <ButtonLink 
           url="mailto:rauleduardo.correa21@gmail.com"
@@ -53,6 +56,10 @@
       display: flex;
       justify-content: center;
       gap: 16px;
+    }
+
+    strong {
+      color: $hero-text-strong;
     }
   }
 
