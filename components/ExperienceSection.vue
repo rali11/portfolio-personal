@@ -21,13 +21,11 @@
     {
       title:'Desarrollador Full-Stack',
       company:'Policia Federal Argentina',
-      descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.',
-      date:'2016 - Actualmente...'
-    },
-    {
-      title:'Desarrollador Full-Stack',
-      company:'Policia Federal Argentina',
-      descripcion:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.',
+      descripcion:`Lider y desarrollador de equipo. 
+       Responsable del mantenimiento y mejora continua de varias aplicaciones web críticas.
+       Lideré la adopción de frameworks modernos como Vue.js en proyectos existentes.
+       Lenguajes utilizados: HTML, JS, PHP (symfony) y PL-SQL (Oracle DB). 
+      `,
       date:'2016 - Actualmente...'
     },
   ])
