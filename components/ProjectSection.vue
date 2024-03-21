@@ -3,7 +3,7 @@
     id="projects"
     tag="section"
   >
-    <h2>Proyectos</h2>
+    <h2>Proyectos personales</h2>
     <div>
       <ProjectItem 
         v-for="(project, index) in projectList"
