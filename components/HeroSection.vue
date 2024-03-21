@@ -4,7 +4,8 @@
       <h1>Hola, soy Edu</h1>
       <p>
         +8 años de experiencia. <strong>Desarrollador de Software Full-Stack</strong>
-        de Buenos Aires, Argentina 🇦🇷. Dedicado a la creación aplicaciones web robustas y escalables.
+        de Buenos Aires, Argentina 🇦🇷. Dedicado a la creación de aplicaciones web robustas 
+        y escalables.
       </p>
       <div class="links">
         <ButtonLink 
