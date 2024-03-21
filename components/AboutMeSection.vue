@@ -6,24 +6,23 @@
     <h2>Sobre mi</h2>
     <article class="card">
       <p>
-        Me llamo Raúl Eduardo Correa. Mi primer acercamiento con la programación
-        fue en la escuela secundaria. En la actualidad, desempeño el rol de 
-        <strong>líder de equipo y desarrollador en un organismo estatal</strong>.
+        Me llamo Raúl Eduardo Correa. Estudie en una escuela secundaria técnica, 
+        en donde tuve mis primeros pasos con la programación. 
+        En la actualidad, desempeño el rol de <strong>líder de equipo y desarrollador en un organismo estatal</strong>.
       </p>
       <p>
-        A lo largo de mi carrera, he tenido la oportunidad de trabajar en diversos 
-        proyectos. Estas experiencias me han brindado <strong>una sólida comprensión</strong> de 
-        cómo la tecnología puede transformar y mejorar los servicios y procesos 
-        dentro de una organización.
+        A lo largo de mi carrera, he tenido la oportunidad de trabajar en diversos proyectos 
+        <strong>que desempeñan roles importantes en la actividad diaria de sus sectores</strong>. 
+        Entre ellos se encuentran aplicaciones web
+        para la gestión y control de tickets de combustible de vehículos, 
+        y de credenciales del personal.
       </p>
       <p>
-        Algunos de los proyectos en los que participe incluyen el desarrollo de aplicaciones web
-        para la 
+        Estas experiencias me han brindado 
         <strong>
-          gestión y control de los tickets de combustible de la flota vehicular, y
-          de credenciales del personal.
+          una sólida comprensión de cómo la tecnología puede
+          transformar y mejorar los servicios y procesos dentro de una organización.
         </strong>
-        Ambas aplicaciones cumplen un rol importante dentro de la institución.
       </p>
     </article>
   </Container>
