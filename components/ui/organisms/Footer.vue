@@ -3,7 +3,7 @@
     <Container tag="div">
       <nav>
         <p>
-          © 2024. Basado en el portfolio de 
+          © 2024. Basado en el porfolio de 
           <a 
             href="https://github.com/midudev/porfolio.dev" 
             target="_blank"
