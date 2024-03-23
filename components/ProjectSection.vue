@@ -23,14 +23,14 @@
   const projectList = reactive([
     {
       title: 'Quiz App - Trivia de banderas y capitales',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.',
+      description: 'Quiz sobre geografia. Preguntas para adivinar la capital de un país o a que país pertenece una bandera. Desarrollado con Vue y Sass.',
       imgUrl:'/projects/project-quiz.webp',
       codeUrl:'https://github.com/rali11/country-quiz-2',
       previewUrl:'https://musical-meringue-211f04.netlify.app/'
     },
     {
       title: 'Weather App - Información del Clima',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.',
+      description: 'Es una aplicación de pronóstico del tiempo que proporciona información en tiempo real y pronósticos para los próximos 5 dias. Incluye datos sobre la humedad, visibilidad, presión del aire y velocidad del viento. Desarrollado con Vue.',
       imgUrl:'/projects/project-weather.webp',
       codeUrl:'https://github.com/rali11/weather-app',
       previewUrl:'https://admirable-trifle-5afe73.netlify.app'
