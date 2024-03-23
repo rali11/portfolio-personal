@@ -11,17 +11,19 @@
         En la actualidad, desempeño el rol de <strong>líder de equipo y desarrollador en un organismo estatal</strong>.
       </p>
       <p>
-        A lo largo de mi carrera, he tenido la oportunidad de trabajar en diversos proyectos 
-        <strong>que desempeñan roles importantes en la actividad diaria de sus sectores</strong>. 
-        Entre ellos se encuentran aplicaciones web
-        para la gestión y control de tickets de combustible de vehículos, 
-        y de credenciales del personal.
+        Algunos de mis aportes dentro de mi trabajo, fueron 
+        <strong>
+          liderar la adopción de frameworks modernos como Vue.js. 
+        </strong>
+        Dicha herramienta fue implementada con éxito tanto en 
+        proyectos existentes como en los nuevos. 
       </p>
       <p>
-        Estas experiencias me han brindado 
+        A lo largo de mi carrera, he tenido la oportunidad de 
+        trabajar en diversos proyectos los cuales me han 
+        brindado 
         <strong>
-          una sólida comprensión de cómo la tecnología puede
-          transformar y mejorar los servicios y procesos dentro de una organización.
+          una sólida comprensión de cómo la tecnología puede transformar y mejorar los servicios y procesos dentro de una organización.
         </strong>
       </p>
     </article>
