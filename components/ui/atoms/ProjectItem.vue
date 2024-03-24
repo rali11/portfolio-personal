@@ -7,6 +7,9 @@
       <header>
         <h3>{{ props.title }}</h3>
       </header>
+      <div class="badge-list">
+        <slot />
+      </div>
       <p>
         {{ props.description }}
       </p>
@@ -55,6 +58,12 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+    .badge-list {
+      display: flex;
+      gap: 5px;
+      margin: 10px 0px;
+    }
 
     figure {
       margin: 0;
