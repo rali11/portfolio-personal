@@ -30,7 +30,7 @@
     },
     {
       title: 'Weather App - Información del Clima',
-      description: 'Es una aplicación de pronóstico del tiempo que proporciona información en tiempo real y pronósticos para los próximos 5 dias. Incluye datos sobre la humedad, visibilidad, presión del aire y velocidad del viento. Desarrollado con Vue.',
+      description: 'Es una aplicación de pronóstico del tiempo que proporciona información en tiempo real y pronósticos para los próximos 5 días. Incluye datos sobre la humedad, visibilidad, presión del aire y velocidad del viento. Desarrollado con Vue.',
       imgUrl:'/projects/project-weather.webp',
       codeUrl:'https://github.com/rali11/weather-app',
       previewUrl:'https://admirable-trifle-5afe73.netlify.app'
