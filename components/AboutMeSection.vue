@@ -6,7 +6,7 @@
     <h2>Sobre mi</h2>
     <article class="card">
       <p>
-        Me llamo Raúl Eduardo Correa. Estudie en una escuela secundaria técnica, 
+        Me llamo Raúl Eduardo Correa. Estudié en una escuela secundaria técnica, 
         en donde tuve mis primeros pasos con la programación. 
         En la actualidad, desempeño el rol de <strong>líder de equipo y desarrollador en un organismo estatal</strong>.
       </p>
