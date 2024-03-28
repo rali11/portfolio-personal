@@ -76,6 +76,7 @@
       width: 100%;
       margin: 0;
       font-size: $fs-experience-item-card-text-description;
+      line-height: 1.4rem;
       color: $experience-item-card-text-description;
     }
 

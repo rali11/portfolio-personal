@@ -84,6 +84,7 @@
     p {
       font-size: $fs-project-item-description;
       color: $project-item-description-text;
+      line-height: 1.4rem;
     }
 
     footer {
