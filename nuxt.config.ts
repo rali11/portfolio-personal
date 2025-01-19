@@ -2,9 +2,9 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title:'Porfolio de Edu - Desarrollador Full-Stack con mas de 7 años de experiencia',
+      title:'Porfolio de Raúl - Desarrollador Full-Stack con mas de 7 años de experiencia',
       meta:[
-        {name: 'description', content:'Contrata a Edu para crear tu aplicación web o móvil. Dedicado a la creación de aplicaciones web robustas y escalables'},
+        {name: 'description', content:'Contrata a Raúl para crear tu aplicación web o móvil. Dedicado a la creación de aplicaciones web robustas y escalables'},
         {name: 'charset', content:'utf-8'},
         {name: 'viewport', content:'width=device-width, initial-scale=1' }
       ],
