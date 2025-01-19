@@ -1,7 +1,7 @@
 <template>
   <Container tag="section">
     <div class="hero">
-      <h1>Hola, soy Edu</h1>
+      <h1>Hola, soy Raúl</h1>
       <p>
         +7 años de experiencia. <strong>Desarrollador de Software Full-Stack</strong>
         de Buenos Aires, Argentina 🇦🇷. Dedicado a la creación de aplicaciones web robustas 
