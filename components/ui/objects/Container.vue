@@ -29,6 +29,7 @@
 
     @media(min-width: $desktop){
       --container-width: #{$desktop};
+      padding: 0 143px;
     }
   }
 </style>
