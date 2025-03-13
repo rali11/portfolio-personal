@@ -1,5 +1,5 @@
 <template>
-  <header :class="backgroundScroll">
+  <header>
     <Container tag="div">
       <nav>
         <ul>
@@ -7,10 +7,7 @@
             v-for="(item, index) in navList"
             :key="index"
           >
-            <a 
-              :href="item.href"
-              :class="[item.intersecting ? 'intersecting' : '']"
-            >
+            <a :href="item.href">
               {{ item.title }}
             </a>
           </li>
@@ -86,34 +83,29 @@
     })
   })
 
-  const backgroundScroll = computed(() => y.value > 10 ? 'background-scroll':'')
 
 </script>
 
 <style lang="scss" scoped>
 
-  .background-scroll {
-    background-color: $header-scroll-bg;
-    z-index: 1;
-    transition: background-color .2s;
-  }
-
   header {
+    z-index: 1;
     position: sticky;
     top: 0;
-    height: 69px;
     display: flex;
     align-items: center;
-    border-color: $header-border-color;
-    border-width: 0 0 1px 0;
-    border-style: solid;
-    transition: background-color .2s;
-    
+    backdrop-filter: blur(10px);
+
     nav {
       display:flex;
       justify-content: center;
       font-size: $fs-header-text;
       font-weight: bold;
+      border-image: linear-gradient(90deg, rgba(83,84,104,0) 0%, rgba(213,198,255,0.2) 23%, rgba(213,198,255,0.4) 50%, rgba(213,198,255,0.2) 76%, rgba(83,84,104,0) 100%) 1;
+      border-width: 0 0 1px 0;
+      border-style: solid;
+      transition: background-color .2s;
+      padding:33px 0px;
   
       ul {
         display: flex;
@@ -121,6 +113,12 @@
         margin: 0;
         color: $text-primary;
         padding: 0;
+        padding: 15px 30px;
+        border-radius: 30px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: $header-border-color;
+        background-color: rgba($color: #000000, $alpha: .2);
   
         li {
           list-style: none;
@@ -129,12 +127,6 @@
         a {
           color: $text-primary;
           text-decoration: none;
-        }
-
-        .intersecting {
-          border-width: 0 0 2px 0;
-          border-style: solid;
-          border-color: $header-intersecting-text;
         }
       }
     }
