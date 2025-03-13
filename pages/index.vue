@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 60px;
     gap:115px;
 
     .main-card {
