@@ -16,7 +16,7 @@
         </ButtonLink>
         <ButtonLink
           type="secondary"
-          url="https://www.linkedin.com/in/eduardo-raul-correa-87a028214"
+          url="https://www.linkedin.com/in/raulcorreadev"
           target="_blank"
           pill
         >

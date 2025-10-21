@@ -13,7 +13,7 @@
       <p>
         Algunos de mis aportes dentro de mi trabajo, fueron 
         <strong>
-          liderar la adopción de frameworks modernos como Vue.js. 
+          promover la adopción de frameworks frontend como Vue.js. 
         </strong>
         Dicha herramienta fue implementada con éxito tanto en 
         proyectos existentes como en los nuevos. 
