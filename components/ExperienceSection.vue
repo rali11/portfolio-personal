@@ -21,10 +21,11 @@
     {
       title:'Desarrollador Full-Stack',
       company:'Policia Federal Argentina',
-      descripcion:`Líder y desarrollador de equipo. 
-       Responsable del mantenimiento y mejora continua de varias aplicaciones web críticas. 
-       Algunas de las cuales incluyen funciones importantes como la gestión de móviles policiales, y administración de credenciales. 
-       Lenguajes utilizados: Javascript (Vue.js), PHP (Symfony) y PL-SQL (Oracle DB). 
+      descripcion:` 
+       Responsable del desarrollo y mantenimiento de varias aplicaciones web críticas. 
+       Algunas de las cuales incluyen funciones importantes como la gestión y validación de credenciales indentificatorias del total de personal policial y una
+       API REST de SMS institucionales, el cual es utilizado para el envío de más de 1000 mensajes diarios.
+       Lenguajes utilizados: Javascript (Vue.js), PHP y PL-SQL (Oracle DB). 
       `,
       date:'2016 - Actualmente...'
     },

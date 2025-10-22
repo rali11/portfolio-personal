@@ -11,12 +11,8 @@
         En la actualidad, desempeño el rol de <strong>líder de equipo y desarrollador en un organismo estatal</strong>.
       </p>
       <p>
-        Algunos de mis aportes dentro de mi trabajo, fueron 
-        <strong>
-          promover la adopción de frameworks frontend como Vue.js. 
-        </strong>
-        Dicha herramienta fue implementada con éxito tanto en 
-        proyectos existentes como en los nuevos. 
+        Algunos de mis aportes dentro de mi trabajo, fueron <strong>impulsar la adopción del framework Vue.js</strong>
+         promoviendo prácticas modernas de frontend. La <strong>implementación de contenedores Docker como entorno de desarrollo local</strong>, lo que permitió estandarizar configuraciones y facilitar la colaboración entre desarrolladores.
       </p>
       <p>
         A lo largo de mi carrera, he tenido la oportunidad de 
