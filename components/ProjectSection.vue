@@ -36,6 +36,17 @@
 
   const projectList = reactive([
     {
+      title: 'Cripto-Currency App - Criptomonedas en tiempo real',
+      description: 'Aplicación para consultar el precio de las criptomonedas en tiempo real. Desarrollado con Vue y Sass.',
+      imgUrl:'/projects/project-cripto.webp',
+      codeUrl:'https://github.com/rali11/cripto-currency',
+      previewUrl:'https://ornate-babka-5084a4.netlify.app',
+      badges:[
+        { textColor:'#42B883', backgroundColor:'#2f2f2f', text:'Vue.js',icon:'VueIcon'},
+        { textColor:'#bf4080', backgroundColor:'#2f2f2f', text:'Sass',icon:'SassIcon'},
+      ]
+    },
+    {
       title: 'Quiz App - Trivia de banderas y capitales',
       description: 'Quiz sobre geografia. Preguntas para adivinar la capital de un país o a que país pertenece una bandera. Desarrollado con Vue y Sass.',
       imgUrl:'/projects/project-quiz.webp',
